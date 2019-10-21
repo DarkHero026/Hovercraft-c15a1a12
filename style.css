@@ -1,0 +1,31 @@
+th{
+    font-size:2em;
+    padding:1em;
+}
+th[scope="col"]{
+    background-color:#ededed;
+}
+th[scope="row"]{
+    border:solid;
+    border-color:blue;
+}
+.orange{
+    background-color:orange;
+    color:green;
+    cursor:pointer;
+}
+.pink{
+    background-color:pink;
+    cursor:pointer;
+}
+.blue{
+    background-color:dodgerblue;
+    cursor:pointer;
+}
+.yellow{
+    background-color: gold;
+    cursor:pointer;
+}
+th[scope="row"]:hover{
+    background:greenyellow;
+}
